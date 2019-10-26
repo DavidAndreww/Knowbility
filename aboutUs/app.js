@@ -13,8 +13,9 @@ class Director {
 
 const babette = new Director('Babette Cohn', 'Director of Education & Programming', '301-593-3410 x106', 'bcohn@shaaretefila.org', 'babette-cohn.jpg')
 const shana = new Director('Shana Rosenblatt', 'Executive Director', '301-593-3410 x101', 'srosenblatt@shaaretefila.org', './images/shana-rosenblatt.jpg')
-const hazzan = new Director('Hazzan Adina Klein Ackerman', 'Cantor', '301-593-3410', 'caackerman@shaaretefila.org', './images/hazzan-ackerman.jpg')
+const hazzan = new Director('Hazzan Adina Klein Ackerman', 'Cantor', ' ', 'caackerman@shaaretefila.org', './images/hazzan-ackerman.jpg')
 const beth = new Director('Beth Adler', 'Early Childhood Center Director', '301-593-3410 x105', 'badler@shaaretefila.org','./Images/beth-adler.jpg')
+
 
 const directors = []
 directors.push(babette)
