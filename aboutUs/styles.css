@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 #directors {
   display: grid;
   justify-content: center;
@@ -13,4 +14,13 @@ body {
   grid-template-rows: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.card {
+  width: 15em;
+  border: 1px solid black;
+}
+
+a {
+  font-size: 12px;
 }
