@@ -47,7 +47,7 @@ directors.forEach((elem) => {
   p.innerHTML = `
   <b>${elem.title}</b><br>
   ${elem.phone}<br>
-  ${elem.email}
+  <a href="mailto:${elem.email}">${elem.email}</a>
   `
   document.querySelector('#cardWrap').append(card)
   card.append(img)
