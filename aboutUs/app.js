@@ -12,11 +12,17 @@ class Director {
   // add method to automatically push new directors into director array
 }
 
+class Staff {
+  constructor(name, title) {
+    this.name = name;
+    this.title = title;
+  }
+}
+
 const babette = new Director('Babette Cohn', 'Director of Education & Programming', '301-593-3410 x106', 'bcohn@shaaretefila.org', './images/babette-cohn.jpg')
 const shana = new Director('Shana Rosenblatt', 'Executive Director', '301-593-3410 x101', 'srosenblatt@shaaretefila.org', './images/shana-rosenblatt.jpg')
 const hazzan = new Director('Hazzan Adina Klein Ackerman', 'Cantor', ' ', 'caackerman@shaaretefila.org', './images/hazzan-ackerman.jpg')
 const beth = new Director('Beth Adler', 'Early Childhood Center Director', '301-593-3410 x105', 'badler@shaaretefila.org','./Images/beth-adler.jpg')
-
 
 const directors = []
 directors.push(babette)
@@ -24,12 +30,9 @@ directors.push(shana)
 directors.push(hazzan)
 directors.push(beth)
 
-
-
 directors.forEach((elem) => {
   const card = document.createElement('div')
   card.setAttribute('class', 'card')
-  
   
   let img = document.createElement('img')
   img.setAttribute('class', 'card-img-top')
@@ -54,5 +57,16 @@ directors.forEach((elem) => {
   card.append(cardBody)
   cardBody.appendChild(h5)
   cardBody.appendChild(p)
+})
 
+const staff = []
+const judy = new Staff('Judy Bresler', "President")
+const perry = new Staff('Perry Sandler', 'Chairman of the Board')
+
+staff.push(judy)
+staff.push(perry)
+console.log(staff)
+
+staff.forEach((elem) => {
+  document.querySelector('#clergy').innerHTML += `${elem.name} ${elem.title}<br>`
 })

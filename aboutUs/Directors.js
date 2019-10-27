@@ -1,4 +1,5 @@
-class Director {
+
+class Directors {
   constructor(name, title, phone, email) {
     this.name = name;
     this.title = title;
@@ -7,4 +8,4 @@ class Director {
   }
 }
 
-module.exports = Director;
+module.exports = Directors;
