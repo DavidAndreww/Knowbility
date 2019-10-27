@@ -9,6 +9,7 @@ class Director {
     this.email = email;
     this.photo = photo;
   }
+  // add method to automatically push new directors into director array
 }
 
 const babette = new Director('Babette Cohn', 'Director of Education & Programming', '301-593-3410 x106', 'bcohn@shaaretefila.org', './images/babette-cohn.jpg')
@@ -22,7 +23,7 @@ directors.push(babette)
 directors.push(shana)
 directors.push(hazzan)
 directors.push(beth)
-console.log(directors)
+
 
 
 directors.forEach((elem) => {
@@ -53,15 +54,5 @@ directors.forEach((elem) => {
   card.append(cardBody)
   cardBody.appendChild(h5)
   cardBody.appendChild(p)
-  
-
-
-  // document.querySelector('.card-title').innerHTML = elem.name;
-  // document.querySelector('.card-text').innerHTML = 
-  // `
-  // <b>${elem.title}</b><br>
-  // ${elem.phone}<br>
-  // ${elem.email}
-  // `;
 
 })
