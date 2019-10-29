@@ -1,16 +1,16 @@
 // let Director = require('./Director.js') // not working for some reason?
 
 // can remove this once modcule using require is working
-class Director {
-  constructor(name, title, phone, email, photo) {
-    this.name = name;
-    this.title = title;
-    this.phone = phone;
-    this.email = email;
-    this.photo = photo;
-  }
-  // add method to automatically push new directors into director array
-}
+// class Director {
+//   constructor(name, title, phone, email, photo) {
+//     this.name = name;
+//     this.title = title;
+//     this.phone = phone;
+//     this.email = email;
+//     this.photo = photo;
+//   }
+//   // add method to automatically push new directors into director array
+// }
 
 class Staff {
   constructor(name, title) {
