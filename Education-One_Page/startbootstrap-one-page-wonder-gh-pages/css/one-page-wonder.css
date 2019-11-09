@@ -14,8 +14,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-family: 'Lato';
+  color: #413e66;
+  font-weight: 500 !important;
 }
 
 .btn-xl {
@@ -59,7 +60,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #f5f8fd 0, 
+ #e6e6e6 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -83,7 +85,8 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #f5f8fd 0, 
+  #e6e6e6 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -132,13 +135,13 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #287fa0;
+  border-color: #287fa0;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #1bb1dc !important;
+  border-color: #287fa0 !important;
 }
 
 .btn-primary:focus {
