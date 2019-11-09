@@ -1,9 +1,58 @@
 * {
-  /* padding: 0px;
-  margin: 0px; */
   box-sizing: border-box;
 }
 
+body {
+font-family: 'Lato', sans-serif;
+}
+
+nav {
+height: 12%;
+width: 100%;
+background-color: #464646;
+display: flex;
+justify-content: space-around;
+}
+
+.Take-Me-Back {
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-items: stretch;
+}
+
 li {
+  margin: 10px;
   list-style: none;
+}
+
+.head {
+  height:52%;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.Mission {
+  text-align: center;
+}
+
+.Core {
+  height: 40%;
+  width: 100%;
+}
+
+.Schedule {
+  height: 30%;
+  width: 100%;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.Cal {
+  height: 20%;
+  width: 100%;
 }
