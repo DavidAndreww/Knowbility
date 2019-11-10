@@ -6,16 +6,56 @@ body {
 font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #413e66;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #413e66;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+
 nav {
 height: 12%;
 width: 100%;
 background-color: #464646;
 display: flex;
 justify-content: space-around;
+text-transform: uppercase;
+font-size: 1rem;
+letter-spacing: 0.1rem;
+font-weight: 700;
 }
 
 .Take-Me-Back {
-  margin: 10px;
+  margin: 20px;
+}
+
+.HomePage {
+  color: white;
+  text-decoration: none;
+}
+
+.Register-link,
+.Calendar-link,
+.Contact-link
+ {
+  text-decoration: none;
+  color: #9d9d9d;
+  font-size: .9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.Register-link:hover,
+.Calendar-link:hover,
+.Contact-link:hover {
+  color: white;
 }
 
 ul {
@@ -30,29 +70,87 @@ li {
 }
 
 .head {
-  height:52%;
+  padding-top: 50px;
+  height:85%;
   width: 100%;
   text-align: center;
-  margin-top: 200px;
+  background: white;
+}
+
+.heading {
+  padding-top: 20px;
+  font-size: 4rem;
+  text-decoration: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Lato', sans-serif
+}
+
+button {
+  color: white;
+  background-color: #287fa0;
+  border-color: #287fa0;
+  margin-top: 10px;
+  text-transform: uppercase;
+  padding: 1.75rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  border-radius: 5rem;
+  }
+
+ button:hover {
+    background-color: #1bb1dc;
+  }
+
+.background-color {
+  background: linear-gradient(0deg, #f5f8fd 0, 
+  #e6e6e6 100%);
 }
 
 .Mission {
   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
 }
 
 .Core {
   height: 40%;
   width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-top: 50.16;
+}
+
+.ShaareLogo {
+  position: relative;
+  left: 450px;
+  top: 50px;
 }
 
 .Schedule {
   height: 30%;
   width: 100%;
-  padding-right: 50px;
   text-align: right;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-top: 50.16;
+  margin-right: 45px;
+}
+
+.Schedule p {
+  margin-right: 45px;
 }
 
 .Cal {
   height: 20%;
   width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-top: 50.16;
 }
