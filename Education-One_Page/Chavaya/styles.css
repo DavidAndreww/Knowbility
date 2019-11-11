@@ -104,8 +104,8 @@ button {
   }
 
 .background-color {
-  background: linear-gradient(0deg, #f5f8fd 0, 
-  #e6e6e6 100%);
+  background: linear-gradient(0deg, #ebeced 0, 
+  #948080 100%);
 }
 
 .Mission {
@@ -124,10 +124,8 @@ button {
   margin-top: 50.16;
 }
 
-.ShaareLogo {
-  position: relative;
-  left: 450px;
-  top: 50px;
+.Core-Values {
+  margin-left: 45px;
 }
 
 .Schedule {
@@ -138,6 +136,9 @@ button {
   font-weight: 500;
   letter-spacing: 0.1rem;
   margin-top: 50.16;
+}
+
+.Class-Schedule {
   margin-right: 45px;
 }
 
@@ -146,11 +147,23 @@ button {
 }
 
 .Cal {
-  height: 20%;
+  height: 45%;
   width: 100%;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
   text-align: center;
-  margin-top: 50.16;
+  margin-top: 50px;
+  padding-top: 25px;
+}
+
+footer {
+  background-color: #464646;
+  height: 40%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ShaareLogo {
+  padding-top: 25px;
 }
